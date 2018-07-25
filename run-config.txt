@@ -1,0 +1,39 @@
+{
+	"run": [
+		{
+			"name": "default",
+			"default": "true",
+			
+			//	current working dir
+			"cwd": "~/workspace/angular-tour-of-heroes",
+			
+			//	run commands list
+			//	example: 
+			//		"grunt", "ember server"
+			"commands": [
+			  "ng serve --open --host Angular-bengohyp114281.codeanyapp.com --port 3000 --disable-host-check"
+			],
+			
+			//	environment variables
+			//	example: 
+			//		"environment": "development",
+			//		"port": "3000"
+			"environment": {
+			},
+			
+			//	if "preview" is set, it will open the link in a 
+			//	preview panel after setting environment variables 
+			//	and all commands have been executed
+			"preview": {
+				"url": "http://{{DOMAIN}}:{{PORT}}/",
+				"type": "external"
+			}
+		}
+	],
+	"find_in_files": {
+		"ignore": [
+			//	file types to ignore in search
+			".git", ".svn", "*.min.js" 
+		]
+	}
+}
