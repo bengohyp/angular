@@ -10,6 +10,10 @@
 			//	run commands list
 			//	example: 
 			//		"grunt", "ember server"
+      //  "ng serve --open" to start server
+      //  "--host <hostname>" to set the hostname
+      //  "--port 3000" is the default angular port for http
+      //  "--disable-host-check" resolves the issue of non-matching host names
 			"commands": [
 			  "ng serve --open --host Angular-bengohyp114281.codeanyapp.com --port 3000 --disable-host-check"
 			],
